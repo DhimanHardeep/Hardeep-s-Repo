@@ -1,0 +1,27 @@
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.deps.json
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csprojAssemblyReference.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfo.cs
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.deps.json
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csprojAssemblyReference.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csproj.CoreCompileInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfoInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfo.cs
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.deps.json
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csprojAssemblyReference.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.AssemblyInfo.cs
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataObject\obj\Debug\netcoreapp2.1\DataObject.pdb

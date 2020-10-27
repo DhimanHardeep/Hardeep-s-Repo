@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularWithDotNetCore", "AngularWithDotNetCore\AngularWithDotNetCore.csproj", "{46C1A6FB-D185-4756-A8B0-04FD971A4F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager", "DataManager\DataManager.csproj", "{A95A055D-734C-468F-AFFA-2A441C358C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRepository", "DataRepository\DataRepository.csproj", "{0AA79BF9-1C2A-4F9F-A178-B388863492FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObject", "DataObject\DataObject.csproj", "{4F92CC47-CCB0-4041-BB26-8EF81F5735A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C1A6FB-D185-4756-A8B0-04FD971A4F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C1A6FB-D185-4756-A8B0-04FD971A4F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C1A6FB-D185-4756-A8B0-04FD971A4F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C1A6FB-D185-4756-A8B0-04FD971A4F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95A055D-734C-468F-AFFA-2A441C358C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95A055D-734C-468F-AFFA-2A441C358C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95A055D-734C-468F-AFFA-2A441C358C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95A055D-734C-468F-AFFA-2A441C358C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA79BF9-1C2A-4F9F-A178-B388863492FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA79BF9-1C2A-4F9F-A178-B388863492FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA79BF9-1C2A-4F9F-A178-B388863492FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA79BF9-1C2A-4F9F-A178-B388863492FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F92CC47-CCB0-4041-BB26-8EF81F5735A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F92CC47-CCB0-4041-BB26-8EF81F5735A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F92CC47-CCB0-4041-BB26-8EF81F5735A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F92CC47-CCB0-4041-BB26-8EF81F5735A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF056574-C8DE-4E95-9D5A-0C3743807641}
+	EndGlobalSection
+EndGlobal

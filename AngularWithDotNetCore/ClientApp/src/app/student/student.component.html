@@ -1,0 +1,175 @@
+<!--<h1>Student</h1>-->
+
+<div class="box-header with-border xs-margin clearfix">
+  <div class="box-title pull-left">
+    <h3>Student</h3>
+  </div>
+  <div class="pull-right">
+    <div class="dropdown" style="margin-top:10px">
+      <button class="btn btn-primary" *ngIf="isListView" (click)="AddNewEvent()"> Add New</button>
+    </div>
+  </div>
+</div>
+
+<!--<p *ngIf="!forecasts"><em>Loading...</em></p>-->
+
+<div *ngIf="isListView">
+  <div *ngIf="StudentList && StudentList.length > 0">
+    <div class="xs-margin">
+      <div class="col-md-3">
+        <input type="text" [(ngModel)]="SearchValue" placeholder="Search here.." class="form-control" />
+      </div>
+      <div class="col-md-3">
+        <select style="width:160px" [(ngModel)]="FilterTypeID" class="form-control">
+          <option *ngFor="let item of FilterList" value="{{item.FilterTypeID}}">{{item.FilterName}}</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <input type="button" value="Go" class="btn btn-primary" (click)="GetStudents(1)" />
+      </div>
+    </div>
+    <table class='table'>
+      <thead>
+        <tr>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>ClassName</th>
+          <th>Subject</th>
+          <th>Marks</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let student of StudentList">
+        <tr *ngFor="let i=index;let subject of StudentSubjectList | customFilter:{studentID: student.studentID}">
+          <td *ngIf="i==0" [rowSpan]="(SubjectList | customFilter:{studentID: student.studentID}).length">{{ student.firstName }}</td>
+          <td *ngIf="i==0" [rowSpan]="(SubjectList | customFilter:{studentID: student.studentID}).length">{{ student.lastName }}</td>
+          <td *ngIf="i==0" [rowSpan]="(SubjectList | customFilter:{studentID: student.studentID}).length">{{ student.className}}</td>
+          <td style="border-top: 0px;">{{ subject.subjectName }}</td>
+          <td style="border-top: 0px;">{{ subject.subjectMarks }}</td>
+          <td *ngIf="i==0" [rowSpan]="(SubjectList | customFilter:{studentID: student.studentID}).length">
+            <a (click)="GetStudentDetail(student.studentID)" style="cursor:pointer">Edit</a>  |
+            <a (click)="DeleteStudent(student.studentID)">Delete</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="xs-margin clearfix"></div>
+    <div class="col-md-12 form-inline" style="text-align: right;padding-left:0px !important; padding-right:0px !important">
+      <div class="pull-left form-group">
+        <label for="email" class="marginleftright5" style="padding-top:10px !important">{{TotalRecords}} record(s) found.</label>
+      </div>
+      <div class="form-group">
+
+        <select (change)="GetStudents(1)" [(ngModel)]="_paramObj.PageSize" class="marginleftright5" style="height:32px!important">
+          <option value="5">5 products per page</option>
+          <option value="10">10 products per page</option>
+          <option value="15">15 products per page</option>
+          <option value="20">20 products per page</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <ul *ngIf="pager.pages && pager.pages.length" class="pagePagination pull-right" style="bottom:0px !important">
+          <li [ngClass]="{'disabled':_paramObj.PageNumber === 1}">
+            <a (click)="GetStudents(1)">First</a>
+          </li>
+          <li [ngClass]="{'disabled':_paramObj.PageNumber === 1}">
+            <a (click)="GetStudents(_paramObj.PageNumber - 1)">Previous</a>
+          </li>
+          <li>
+            <span style="padding-bottom: 1px">
+              Page
+              <input type="text" style="min-width:40px;width:40px;text-align:center;" [(ngModel)]="_paramObj.PageNumber" (keyup.enter)="GetStudents(_paramObj.PageNumber)" /> of {{pager.totalPages}}
+            </span>
+          </li>
+          <li [ngClass]="{'disabled':_paramObj.PageNumber === pager.totalPages}">
+            <a (click)="GetStudents(_paramObj.PageNumber + 1)">
+              Next
+            </a>
+          </li>
+          <li [ngClass]="{'disabled':pager.currentPage === pager.totalPages}">
+            <a (click)="GetStudents(pager.totalPages)">Last ({{pager.totalPages}})</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div *ngIf="!(StudentList && StudentList.length > 0)">
+    <div class="text-center red-color">
+      No Record Found.
+    </div>
+  </div>
+
+</div>
+
+<div *ngIf="!isListView">
+  <!--{{StudentForm.value|json}}-->
+  <form [formGroup]="StudentForm" (ngSubmit)="submitFormEvent()">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="col-sm-6">
+          <div class="col-sm-12">
+            <div class="col-md-4 form-group text-right">
+              <label><span class="red-color">*</span> First Name: </label>
+            </div>
+            <div class="col-md-8 form-group text-left">
+              <input id="firstName" type="text" class="form-control" placeholder="Enter First Name" (keydown.space)="$event.preventDefault();" formControlName="FirstName" autofocus="autofocus" required>
+              <span class="red-color" *ngIf="Submitted && StudentForm.controls['FirstName'].invalid">First Name is required</span>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-md-4 form-group text-right">
+              <label><span class="red-color">*</span> Last Name: </label>
+            </div>
+            <div class="col-md-8 form-group text-left">
+              <input type="text" class="form-control" placeholder="Enter Last Name" formControlName="LastName" required (keydown.space)="$event.preventDefault();">
+              <span class="red-color" *ngIf="Submitted && StudentForm.controls['LastName'].invalid">Last Name is required</span>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-md-4 form-group text-right">
+              <label><span class="red-color">*</span> Class: </label>
+            </div>
+            <div class="col-md-8 form-group text-left">
+              <input type="text" class="form-control" placeholder="Enter Class" formControlName="ClassName" required (keydown.space)="$event.preventDefault();">
+              <span class="red-color" *ngIf="Submitted && StudentForm.controls['ClassName'].invalid">Class Name is required</span>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="col-md-4 form-group text-right">
+              <label><span class="red-color">*</span> Subjects: </label>
+            </div>
+            <div class="col-md-8 form-group text-left">
+              <table class="subject-table">
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of SubjectList">
+                    <td><input type="checkbox" [(ngModel)]="item.isChecked" [ngModelOptions]="{standalone: true}" (change)="checkboxEvent(item)" value="true" />   {{item.subjectName}}</td>
+                    <td> <input type="number" min="0" max="500" maxlength="4" [(ngModel)]="item.subjectMarks"  disabled="{{item.isChecked?false:true}}" style="width:60px" [ngModelOptions]="{standalone: true}" /></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="red-color" *ngIf="Submitted && SubjectFieldError">Please select atleast one subject.</span>
+              <span class="red-color" *ngIf="Submitted && SubjectMarksFieldError">Please fill the marks in all selected subjects.</span>
+            </div>
+          </div>
+          <!--{{SubjectList | json}}-->
+          <div class="col-sm-12 text-right">
+            <div>
+              <input type="submit" value="Save" class="btn btn-primary" />
+              <input type="button" value="Cancel" (click)="reset()" class="btn btn-primary" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</div>

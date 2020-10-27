@@ -1,0 +1,36 @@
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.deps.json
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfo.cs
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csprojAssemblyReference.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CopyComplete
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.deps.json
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csprojAssemblyReference.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CoreCompileInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfoInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfo.cs
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CopyComplete
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.deps.json
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csprojAssemblyReference.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.AssemblyInfo.cs
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.csproj.CopyComplete
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataRepository\obj\Debug\netcoreapp2.1\DataRepository.pdb

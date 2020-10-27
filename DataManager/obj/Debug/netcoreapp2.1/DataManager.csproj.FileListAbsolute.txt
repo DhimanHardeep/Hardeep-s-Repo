@@ -1,0 +1,42 @@
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csprojAssemblyReference.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfo.cs
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.deps.json
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CopyComplete
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep Old Data\AngularWithCore\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.deps.json
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csprojAssemblyReference.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CoreCompileInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfoInputs.cache
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfo.cs
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CopyComplete
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep BWS\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.deps.json
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataManager.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataObject.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\bin\Debug\netcoreapp2.1\DataRepository.pdb
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csprojAssemblyReference.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CoreCompileInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfoInputs.cache
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.AssemblyInfo.cs
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.csproj.CopyComplete
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.dll
+E:\Hardeep Old Data\Latest\AngularWithDotNetCore\DataManager\obj\Debug\netcoreapp2.1\DataManager.pdb
